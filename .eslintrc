@@ -113,6 +113,12 @@
       0,
       "never"
     ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
     "new-parens": 2,
     "no-alert": 0,
     "no-array-constructor": 2,
